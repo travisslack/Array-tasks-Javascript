@@ -18,7 +18,7 @@ var arrayTasks = {
 	sum: function (arr) {
 		return arr.reduce( function( sum, number ){
 		  return sum + number;
-		}, 0 )
+		}, 0)
 		return total
 	},
 
@@ -27,8 +27,11 @@ var arrayTasks = {
 	// },
 
 	// removeAndClone: function (arr, valueToRemove) {
-		
+	// 	arr = []
+	// 	var removed = arr.splice(arr - valueToRemove);
+	// 	return arr;
 	// },
+
 
 	// findIndexesOf: function (arr, itemToFind) {
 		
