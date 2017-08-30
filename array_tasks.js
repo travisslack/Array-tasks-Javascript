@@ -7,11 +7,13 @@ var arrayTasks = {
 	insertAt: function (arr, itemToAdd, index) {
 		arr.splice(index, 0, itemToAdd);
 		return arr;
-	}
+	},
 
-	// square: function (arr) {
-		
-	// },
+	square: function (arr) {
+		return arr.map(function(number) {
+			return number ** 2;
+		})
+	},
 
 	// sum: function (arr) {
 		
